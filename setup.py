@@ -9,7 +9,7 @@ with io.open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='ipynb-py-convert',
     packages=['ipynb_py_convert'],
-    version='0.4.4',
+    version='0.4.5',
     description='Convert .py files runnable in VSCode/Python or Atom/Hydrogen to jupyter .ipynb notebooks and vice versa',
     long_description=long_description,
     long_description_content_type="text/markdown",
